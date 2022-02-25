@@ -23,6 +23,7 @@ public class ProductController {
 	private ProdutService service;	
 	@GetMapping("/products")
 	public List<Product> listALL(){
+		System.out.println("Testing");
 		return service.listAllProduct();
 	}	
 	@GetMapping("/products/{id}")
