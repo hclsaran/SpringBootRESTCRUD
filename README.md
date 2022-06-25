@@ -88,3 +88,20 @@ class App extends React.Component {
 export default App;
  
 // Just some styles
+const styles = {
+  lbl: {
+    marginTop: 5,
+    marginBottom: 5,
+  },  
+  btn: {
+    width:250,
+    marginLeft:15,
+    marginTop: 15,
+  }
+};
+
+ 
+ 
+
+
+
